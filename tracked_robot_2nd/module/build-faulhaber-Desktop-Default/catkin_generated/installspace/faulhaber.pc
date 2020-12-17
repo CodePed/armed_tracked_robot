@@ -1,0 +1,8 @@
+prefix==/home/cirlab/catkin_ws/install
+
+Name: faulhaber
+Description: Description of faulhaber
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,18 @@
+#Goal Definition
+string cmd
+
+float64 vehicle_v
+float64 vehicle_w
+
+int64[] position
+int64[] speed
+
+---
+
+#Result Definition
+string cmd
+
+---
+
+#Feedback Definition
+string cmd

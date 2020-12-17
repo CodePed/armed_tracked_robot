@@ -1,0 +1,27 @@
+#Goal Definition
+string cmd
+float64 v
+float64 w
+
+int64[] position
+int64[] speed
+
+---
+
+#Result Definition
+string cmd
+
+float64[] v
+float64[] w
+
+int64[] position
+int64[] speed
+---
+
+#Feedback Definition
+string cmd
+float64[] v
+float64[] w
+
+int64[] position
+int64[] speed

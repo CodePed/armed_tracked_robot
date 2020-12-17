@@ -1,0 +1,8 @@
+<launch>
+<node pkg="nodelet" type="nodelet" name="points_xyz_sw_registered"
+            args="load depth_image_proc/point_cloud_xyz $(arg manager) $(arg bond)" respawn="$(arg respawn)">
+        <remap from="camera_info"             to="$(arg depth)/camera_info" /><!--"$(arg depth)/camera_info"-->
+        <remap from="image_rect" to="$(arg depth)/image_rect_raw" /><!--"$(arg depth)/image_rect_raw"-->
+        <remap from="points"     to="$(arg depth)/points" /><!--"$(arg depth)/points"-->
+</node>
+</launch>
